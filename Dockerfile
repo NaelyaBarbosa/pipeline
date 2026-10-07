@@ -8,7 +8,7 @@
 # O código da aplicação, propositalmente, continua com as
 # vulnerabilidades estudadas nos laboratórios de SonarQube e Semgrep.
 
-FROM python:3.14.8-bookworm
+FROM python:3.13.16-slim-bookworm
 
 WORKDIR /app
 
